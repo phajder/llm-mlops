@@ -1,0 +1,3 @@
+[submodule "llama-argocd"]
+	path = llama-argocd
+	url = https://github.com/phajder/llama-argocd
