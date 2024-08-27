@@ -23,8 +23,11 @@ In addition, the use of Argo Workflows allows for the automation of the process 
 While choosing tools, I was guided by two main factors:
 * Automation - performing activities in a machine way significantly reduces the risk of making an error that can be either tragic in its consequences or very difficult to detect, and therefore to patch.
 * Extensibility - how much the tool, codes or manifests can be extended.
+* Support fot templating - the ability to create generic, reusable configs.
 
-Both criteria complement each other - the possibility of extending functionality may increase automation, and automation may be an extension of the possibilities available to different groups of software developers.
+Automation and extensibility complement each other - the possibility of extending functionality may increase automation, and automation may be an extension of the possibilities available to different groups of software developers.
+
+Templating speeds up application development. It also reduces the amount of final code, which has a positive impact on the CI/CD pipeline execution times. However, it may lead to increased software complexity and reduced readability, if templates would be _too generic_ (typical case in React HOCs). Both, Argo Workflows and helm charts, that were selected in this project, are natively using templating engines. It allowed to both, preconfigure and customize all of the applications used in the cluster.
 
 This approach allows to skip entirely the requirement to understand Kubernetes and its orchestration mechanisms. Even CI aspects can be a mystery to dev team, but it is not recommended.
 
