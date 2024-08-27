@@ -39,11 +39,11 @@ For k3s node:
 
 ## Tasks
 
-| No. |                      Description                      |
-| :-: | :---------------------------------------------------: |
-|  1  |          [LLM deployment](/task-1/README.md)          |
-|  2  | [LLM pipeline with Argo Workflows](/task-2/README.md) |
-|  3  |         [Project decisions](/task-3/README.md)        |
+| No. |                         Description                         |
+| :-: | :---------------------------------------------------------: |
+|  1  |             [LLM deployment](/task-1/README.md)             |
+|  2  | [LLM pipeline with Argo Workflows](/llama-argocd/README.md) |
+|  3  |            [Project decisions](/task-3/README.md)           |
 
 ## Links
 
